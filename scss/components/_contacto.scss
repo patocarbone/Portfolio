@@ -1,0 +1,21 @@
+@import "../base/listas";
+@import "../base/operators";
+
+/* Contacto */
+
+#contacto {
+    background-color: nth($bg-color, 6);
+
+    .contacto-container {
+        height: $section-height - 30vh;
+
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+/* Fin Contacto */

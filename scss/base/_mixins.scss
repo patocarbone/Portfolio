@@ -1,0 +1,12 @@
+/* Mixins */
+@mixin transiciones($propiedad) {
+  transition: $propiedad;
+}
+
+@mixin transformaciones($propiedad) {
+  transform: $propiedad;
+  -webkit-transform: $propiedad;
+  -o-transform: $propiedad;
+  -moz-transform: $propiedad;
+}
+/* Fin Mixins */

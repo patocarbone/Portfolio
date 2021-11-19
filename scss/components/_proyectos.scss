@@ -1,0 +1,30 @@
+@import "../base/listas";
+@import "../base/extends";
+@import "../base/operators";
+
+/* Proyectos */
+
+#proyectos {
+  background-color: nth($bg-color, 5);
+
+  .proyectos-container {
+    height: $section-height;
+
+    h2 {
+      @extend %encabezados;
+    }
+
+    p {
+      @extend %parrafos;
+    }
+
+    .car-container {
+      width: 50%;
+    }
+  }
+  .img-flecha {
+    width: 20vh;
+  }
+}
+
+/* Fin proyectos */

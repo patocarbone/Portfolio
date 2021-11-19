@@ -1,0 +1,267 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid black; */
+}
+
+/* Scroll-behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fin Reset*/
+/* Extends */
+#proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 3.5em;
+  color: white;
+}
+
+#proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: white;
+}
+
+/* Fin Extends */
+/* Operaciones */
+/* Fin operaciones */
+/* Mixins */
+/* Fin Mixins */
+/* Mixins */
+/* Fin Mixins */
+/* Barra de navegacion */
+.nav-color {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid black;
+}
+.nav-color .mi-nav {
+  display: flex;
+  justify-content: end;
+}
+.nav-color .logo1 {
+  width: 3vh;
+  transition: all 1s;
+}
+.nav-color .logo1:hover {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -moz-transform: scale(2);
+}
+.nav-color a {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  margin-left: 2px;
+  color: black;
+}
+.nav-color a:hover {
+  text-decoration: line-through;
+  color: gold;
+}
+
+/* Fin barra de navegacion */
+/* Operaciones */
+/* Fin operaciones */
+/* Mixins */
+/* Fin Mixins */
+/* Inicio */
+#inicio {
+  background-color: #000000;
+}
+#inicio .inicio-container {
+  height: 80vh;
+}
+#inicio .inicio-container .encabezado-item {
+  margin-right: 25%;
+  margin-left: 25%;
+  border-bottom: 5px solid gray;
+  border-right: 5px solid gray;
+  font-family: "Roboto", sans-serif;
+  font-size: 3em;
+  color: black;
+  background-color: #FFFFFF;
+}
+#inicio .inicio-container button {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+#inicio .inicio-container button:hover {
+  background-color: black;
+}
+#inicio .inicio-container button:hover a {
+  color: white;
+}
+#inicio .inicio-container button a {
+  text-decoration: none;
+  color: black;
+}
+#inicio .img-flecha {
+  width: 20vh;
+}
+
+/* Animaciones */
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInRight {
+  --animate-duration: 2s;
+}
+
+/* Fin Inicio */
+/* Extends */
+#proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 3.5em;
+  color: white;
+}
+
+#proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: white;
+}
+
+/* Fin Extends */
+/* Operaciones */
+/* Fin operaciones */
+/* Mixins */
+/* Fin Mixins */
+/* Sobre mi */
+#sobre-mi {
+  background-color: #000000;
+}
+#sobre-mi .sobre-mi-container {
+  height: 80vh;
+}
+#sobre-mi .img-sobre-mi2 {
+  transition: all 1.5s;
+  width: 35%;
+}
+#sobre-mi .img-sobre-mi2:hover {
+  transform: translate(-400px, -120px) rotate(-35deg);
+  -webkit-transform: translate(-400px, -120px) rotate(-35deg);
+  -o-transform: translate(-400px, -120px) rotate(-35deg);
+  -moz-transform: translate(-400px, -120px) rotate(-35deg);
+}
+#sobre-mi .img-flecha {
+  width: 20vh;
+}
+
+/* Fin sobre mi */
+/* Extends */
+#proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 3.5em;
+  color: white;
+}
+
+#proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: white;
+}
+
+/* Fin Extends */
+/* Operaciones */
+/* Fin operaciones */
+/* Mixins */
+/* Fin Mixins */
+/* Skills */
+#skills {
+  background-color: #000000;
+}
+#skills .skills-container {
+  height: 80vh;
+}
+#skills .skills-container .img-css,
+#skills .skills-container .img-html {
+  width: 10%;
+  transition: all 1s;
+}
+#skills .skills-container .img-css:hover,
+#skills .skills-container .img-html:hover {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -moz-transform: scale(2);
+}
+#skills .skills-container .img-js {
+  width: 8%;
+  transition: all 1s;
+}
+#skills .skills-container .img-js:hover {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -moz-transform: scale(2);
+}
+#skills .img-flecha {
+  width: 20vh;
+}
+
+/* Animacion */
+.animate__animated.animate__slideInUp {
+  --animate-duration: 2s;
+}
+
+/* Fin Skills */
+/* Extends */
+#proyectos .proyectos-container h2, #sobre-mi .sobre-mi-container h2, #skills .skills-container h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 3.5em;
+  color: white;
+}
+
+#proyectos .proyectos-container p, #sobre-mi .sobre-mi-container p, #skills .skills-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: white;
+}
+
+/* Fin Extends */
+/* Operaciones */
+/* Fin operaciones */
+/* Proyectos */
+#proyectos {
+  background-color: #000000;
+}
+#proyectos .proyectos-container {
+  height: 80vh;
+}
+#proyectos .proyectos-container .car-container {
+  width: 50%;
+}
+#proyectos .img-flecha {
+  width: 20vh;
+}
+
+/* Fin proyectos */
+/* Operaciones */
+/* Fin operaciones */
+/* Contacto */
+#contacto {
+  background-color: #000000;
+}
+#contacto .contacto-container {
+  height: 50vh;
+}
+#contacto .contacto-container a {
+  text-decoration: none;
+}
+#contacto .contacto-container a:hover {
+  text-decoration: underline;
+}
+
+/* Fin Contacto */
+
+/*# sourceMappingURL=style.css.map */

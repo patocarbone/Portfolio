@@ -1,0 +1,35 @@
+@import "../base/listas";
+@import "../base/extends";
+@import "../base/operators";
+@import "../base/mixins";
+
+/* Sobre mi */
+
+#sobre-mi {
+  background-color: nth($bg-color, 3);
+
+  .sobre-mi-container {
+    height: $section-height;
+
+    h2 {
+      @extend %encabezados;
+    }
+
+    p {
+      @extend %parrafos;
+    }
+  }
+
+  .img-sobre-mi2 {
+    @include transiciones(all 1.5s);
+    width: 35%;
+
+    &:hover {
+      @include transformaciones(translate(-400px, -120px) rotate(-35deg));
+    }
+  }
+  .img-flecha{
+    width: 20vh;
+  }
+}
+/* Fin sobre mi */

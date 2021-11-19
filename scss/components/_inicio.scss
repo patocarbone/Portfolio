@@ -1,0 +1,55 @@
+@import "../base/listas";
+@import "../base/operators";
+@import "../base/mixins";
+
+/* Inicio */
+#inicio {
+  background-color: nth($bg-color, 2);
+
+  .inicio-container {
+    height: $section-height;
+
+    .encabezado-item {
+      margin-right: 25%;
+      margin-left: 25%;
+      border-bottom: 5px solid gray;
+      border-right: 5px solid gray;
+      font-family: "Roboto", sans-serif;
+      font-size: 3em;
+      color: black;
+      background-color: nth($bg-color, 1);
+    }
+    button {
+      font-family: "Roboto", sans-serif;
+      background-color: white;
+
+      letter-spacing: 1px;
+      @include transiciones(all 0.5s);
+
+      &:hover {
+        background-color: black;
+        a {
+          color: white;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  .img-flecha {
+    width: 20vh;
+  }
+}
+
+/* Animaciones */
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__fadeInRight {
+  --animate-duration: 2s;
+}
+
+/* Fin Inicio */

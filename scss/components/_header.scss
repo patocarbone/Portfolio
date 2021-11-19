@@ -1,0 +1,35 @@
+@import "../base/listas";
+@import "../base/mixins";
+
+/* Barra de navegacion */
+.nav-color {
+  background-color: nth($bg-color, 1);
+  border-bottom: 1px solid black;
+
+  .mi-nav {
+    display: flex;
+    justify-content: end;
+  }
+  .logo1 {
+    width: 3vh;
+    @include transiciones (all 1s);
+
+    &:hover {
+      @include transformaciones (scale(2));
+    }
+  }
+  a {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    margin-left: 2px;
+    color: black;
+   
+
+    &:hover {
+      text-decoration: line-through;
+      color: gold;
+    }
+  }
+}
+/* Fin barra de navegacion */

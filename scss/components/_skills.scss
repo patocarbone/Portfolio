@@ -1,0 +1,50 @@
+@import "../base/listas";
+@import "../base/extends";
+@import "../base/operators";
+@import "../base/mixins";
+
+/* Skills */
+#skills {
+  background-color: nth($bg-color, 4);
+
+  .skills-container {
+    height: $section-height;
+
+    h2 {
+      @extend %encabezados;
+    }
+
+    p {
+      @extend %parrafos;
+    }
+
+    .img-css,
+    .img-html {
+      width: 10%;
+      @include transiciones(all 1s);
+
+      &:hover {
+        @include transformaciones(scale(2));
+      }
+    }
+
+    .img-js {
+      width: 8%;
+      @include transiciones(all 1s);
+
+      &:hover {
+        @include transformaciones(scale(2));
+      }
+    }
+  }
+  .img-flecha {
+    width: 20vh;
+  }
+}
+
+/* Animacion */
+.animate__animated.animate__slideInUp {
+  --animate-duration: 2s;
+}
+
+/* Fin Skills */

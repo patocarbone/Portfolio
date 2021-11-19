@@ -1,0 +1,27 @@
+<!-- Meta etiquetas description -->
+    <meta name="description" content="Portfolio de Desarrollo Web. Materializá las ideas que crees que van a potenciar tu empresa o emprendimiento en una pagina web genuina, original y responsive!">
+Agregue esta descripcion que esta dentro de los caracteres recomendados y con palabras claves.
+
+<!-- Meta kw -->
+    <meta name="keywords" content="portfolio, desarrollo web, full stack, seo, sem, HTML, CSS, JavaScript, proyectos, bootstrap, git, github, front-end, back-end">
+Agregue las KeyWords correspondientes a los lenguajes utilizados en el proyecto, tanto asi como otras herramientas y caracteristicas mas especificas como desarrollo web, etc.
+
+<title>Portfolio | Desarrollo Web | Patricio Carbone</title>
+Cambie el titulo para que se ajuste a los parametros de SEO.
+
+<!-- Protocolo open graph -->
+<meta property="og:title" content="Portfolio | Desarrolo Web | Patricio Carbone">
+<meta property="og:url" content="www.patriciocarbone.com">
+<meta property="og:image" content="https://ibb.co/xq2dCvM">
+<meta property="og:description" content="Portfolio de Desarrollo Web. Materializá las ideas que crees que van a potenciar tu empresa o emprendimiento en una pagina web genuina, original y responsive!">
+Agregue los 4 meta tags requeridos en el protocolo Open Graph con su respectivo contenido. Subi una imagen a un servidor para poder poner el link en el og.
+
+alt= "logo de un pato negro"
+alt="balde gris con agua que se desborda y moja el piso"
+alt="un pato de color amarillo animado"
+alt="logo del lenguaje css 3"
+alt="logo del lenguaje html 5"
+alt="logo del lenguaje javascript"
+alt="imagen previsualizada de un proyecto">
+alt="imagen previsualizada de un proyecto">
+alt="imagen previsualizada de un proyecto">
