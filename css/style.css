@@ -37,10 +37,6 @@ html {
   background-color: #FFFFFF;
   border-bottom: 1px solid black;
 }
-.nav-color .mi-nav {
-  display: flex;
-  justify-content: end;
-}
 .nav-color .logo1 {
   width: 3vh;
   transition: all 1s;

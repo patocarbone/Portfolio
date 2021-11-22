@@ -6,10 +6,6 @@
   background-color: nth($bg-color, 1);
   border-bottom: 1px solid black;
 
-  .mi-nav {
-    display: flex;
-    justify-content: end;
-  }
   .logo1 {
     width: 3vh;
     @include transiciones (all 1s);
