@@ -10,7 +10,8 @@
 %parrafos {
     font-family: "Roboto", sans-serif;
     font-size: 2em;
-    color: white;
+    color: black;
+    background-color: nth($bg-color, 1)
 }
 
 /* Fin Extends */
