@@ -22,8 +22,8 @@ html {
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
   font-family: "Roboto", sans-serif;
   font-size: 2em;
-  color: black;
-  background-color: #FFFFFF;
+  color: white;
+  background-color: #080808;
 }
 
 /* Fin Extends */
@@ -67,7 +67,7 @@ html {
 /* Fin Mixins */
 /* Inicio */
 #inicio {
-  background-color: #000000;
+  background-color: #191919;
 }
 #inicio .inicio-container {
   height: 80vh;
@@ -123,8 +123,8 @@ html {
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
   font-family: "Roboto", sans-serif;
   font-size: 2em;
-  color: black;
-  background-color: #FFFFFF;
+  color: white;
+  background-color: #080808;
 }
 
 /* Fin Extends */
@@ -134,7 +134,7 @@ html {
 /* Fin Mixins */
 /* Sobre mi */
 #sobre-mi {
-  background-color: #000000;
+  background-color: #191919;
 }
 #sobre-mi .sobre-mi-container {
   height: 80vh;
@@ -165,8 +165,8 @@ html {
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
   font-family: "Roboto", sans-serif;
   font-size: 2em;
-  color: black;
-  background-color: #FFFFFF;
+  color: white;
+  background-color: #080808;
 }
 
 /* Fin Extends */
@@ -176,7 +176,7 @@ html {
 /* Fin Mixins */
 /* Skills */
 #skills {
-  background-color: #000000;
+  background-color: #191919;
 }
 #skills .skills-container {
   height: 80vh;
@@ -224,8 +224,8 @@ html {
 #proyectos .proyectos-container p, #sobre-mi .sobre-mi-container p, #skills .skills-container p {
   font-family: "Roboto", sans-serif;
   font-size: 2em;
-  color: black;
-  background-color: #FFFFFF;
+  color: white;
+  background-color: #080808;
 }
 
 /* Fin Extends */
@@ -233,7 +233,7 @@ html {
 /* Fin operaciones */
 /* Proyectos */
 #proyectos {
-  background-color: #000000;
+  background-color: #191919;
 }
 #proyectos .proyectos-container {
   height: 80vh;
@@ -250,7 +250,7 @@ html {
 /* Fin operaciones */
 /* Contacto */
 #contacto {
-  background-color: #000000;
+  background-color: #191919;
 }
 #contacto .contacto-container {
   height: 50vh;
