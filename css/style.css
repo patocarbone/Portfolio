@@ -75,8 +75,6 @@ html {
 #inicio .inicio-container .encabezado-item {
   margin-right: 25%;
   margin-left: 25%;
-  border-bottom: 5px solid gray;
-  border-right: 5px solid gray;
   font-family: "Roboto", sans-serif;
   font-size: 3em;
   color: black;
