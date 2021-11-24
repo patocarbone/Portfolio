@@ -9,6 +9,9 @@
     .contacto-container {
         height: $section-height - 30vh;
 
+        h2 {
+            @extend %encabezados;
+          }
         a {
             text-decoration: none;
             &:hover {
