@@ -13,10 +13,10 @@ html {
 /* Fin Reset*/
 /* Extends */
 #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 3.5em;
+  font-family: "Comforter", cursive;
+  font-size: 4em;
   color: white;
+  letter-spacing: 10px;
 }
 
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
@@ -112,10 +112,10 @@ html {
 /* Fin Inicio */
 /* Extends */
 #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 3.5em;
+  font-family: "Comforter", cursive;
+  font-size: 4em;
   color: white;
+  letter-spacing: 10px;
 }
 
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
@@ -154,10 +154,10 @@ html {
 /* Fin sobre mi */
 /* Extends */
 #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 3.5em;
+  font-family: "Comforter", cursive;
+  font-size: 4em;
   color: white;
+  letter-spacing: 10px;
 }
 
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
@@ -213,10 +213,10 @@ html {
 /* Fin Skills */
 /* Extends */
 #proyectos .proyectos-container h2, #sobre-mi .sobre-mi-container h2, #skills .skills-container h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 3.5em;
+  font-family: "Comforter", cursive;
+  font-size: 4em;
   color: white;
+  letter-spacing: 10px;
 }
 
 #proyectos .proyectos-container p, #sobre-mi .sobre-mi-container p, #skills .skills-container p {
