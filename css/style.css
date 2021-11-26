@@ -70,7 +70,7 @@ html {
   background-color: #191919;
 }
 #inicio .inicio-container {
-  height: 80vh;
+  height: 100vh;
 }
 #inicio .inicio-container .encabezado-item {
   margin-right: 25%;
@@ -135,7 +135,7 @@ html {
   background-color: #191919;
 }
 #sobre-mi .sobre-mi-container {
-  height: 80vh;
+  height: 100vh;
 }
 #sobre-mi .img-sobre-mi2 {
   transition: all 1.5s;
@@ -177,7 +177,7 @@ html {
   background-color: #191919;
 }
 #skills .skills-container {
-  height: 80vh;
+  height: 100vh;
 }
 #skills .skills-container .img-css,
 #skills .skills-container .img-html {
@@ -234,7 +234,7 @@ html {
   background-color: #191919;
 }
 #proyectos .proyectos-container {
-  height: 80vh;
+  height: 100vh;
 }
 #proyectos .proyectos-container .car-container {
   width: 50%;
@@ -251,7 +251,7 @@ html {
   background-color: #191919;
 }
 #contacto .contacto-container {
-  height: 50vh;
+  height: 70vh;
 }
 #contacto .contacto-container a {
   text-decoration: none;
