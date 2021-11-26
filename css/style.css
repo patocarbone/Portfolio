@@ -201,9 +201,6 @@ html {
   -o-transform: scale(2);
   -moz-transform: scale(2);
 }
-#skills .img-flecha {
-  width: 20vh;
-}
 
 /* Animacion */
 .animate__animated.animate__slideInUp {
