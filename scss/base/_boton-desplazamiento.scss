@@ -1,0 +1,14 @@
+/* Boton desplazamiento */
+
+
+@media screen and (max-width: 480px) {
+.boton-desplazamiento{
+display: none;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 728px) {
+    .boton-desplazamiento{
+    display: none;
+    }
+    }
