@@ -136,6 +136,11 @@ html {
     font-size: 2em;
   }
 }
+@media screen and (min-width: 729px) and (max-width: 1024px) {
+  #inicio .inicio-container .encabezado-item {
+    font-size: 2em;
+  }
+}
 #inicio .inicio-container button {
   font-family: "Roboto", sans-serif;
   background-color: white;
@@ -227,14 +232,19 @@ html {
   transition: all 1.5s;
   width: 35%;
 }
+@media screen and (max-width: 480px) {
+  #sobre-mi .img-sobre-mi2 {
+    width: 35%;
+  }
+}
 #sobre-mi .img-sobre-mi2:hover {
   transform: translate(-400px, -120px) rotate(-35deg);
   -webkit-transform: translate(-400px, -120px) rotate(-35deg);
   -o-transform: translate(-400px, -120px) rotate(-35deg);
   -moz-transform: translate(-400px, -120px) rotate(-35deg);
 }
-#sobre-mi .img-flecha {
-  width: 20vh;
+#sobre-mi .balde-con-agua {
+  width: 45%;
 }
 
 /* Fin sobre mi */
@@ -301,6 +311,27 @@ html {
   width: 10%;
   transition: all 1s;
 }
+@media screen and (max-width: 480px) {
+  #skills .skills-container .img-css,
+#skills .skills-container .img-html,
+#skills .skills-container .img-github {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 728px) {
+  #skills .skills-container .img-css,
+#skills .skills-container .img-html,
+#skills .skills-container .img-github {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 729px) and (max-width: 1024px) {
+  #skills .skills-container .img-css,
+#skills .skills-container .img-html,
+#skills .skills-container .img-github {
+    width: 25%;
+  }
+}
 #skills .skills-container .img-css:hover,
 #skills .skills-container .img-html:hover,
 #skills .skills-container .img-github:hover {
@@ -312,6 +343,21 @@ html {
 #skills .skills-container .img-js {
   width: 8%;
   transition: all 1s;
+}
+@media screen and (max-width: 480px) {
+  #skills .skills-container .img-js {
+    width: 18%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 728px) {
+  #skills .skills-container .img-js {
+    width: 18%;
+  }
+}
+@media screen and (min-width: 729px) and (max-width: 1024px) {
+  #skills .skills-container .img-js {
+    width: 18%;
+  }
 }
 #skills .skills-container .img-js:hover {
   transform: scale(2);

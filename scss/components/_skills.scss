@@ -24,6 +24,16 @@
       width: 10%;
       @include transiciones(all 1s);
 
+      @media screen and (max-width: 480px) {
+        width: 25%;
+      }
+      @media screen and (min-width: 480px) and (max-width: 728px) {
+        width: 25%;
+      }
+      @media screen and (min-width: 729px) and (max-width: 1024px) {
+        width: 25%;
+      }
+
       &:hover {
         @include transformaciones(scale(2));
       }
@@ -32,6 +42,16 @@
     .img-js {
       width: 8%;
       @include transiciones(all 1s);
+
+      @media screen and (max-width: 480px) {
+        width: 18%;
+      }
+      @media screen and (min-width: 480px) and (max-width: 728px) {
+        width: 18%;
+      }
+      @media screen and (min-width: 729px) and (max-width: 1024px) {
+        width: 18%;
+      }
 
       &:hover {
         @include transformaciones(scale(2));
