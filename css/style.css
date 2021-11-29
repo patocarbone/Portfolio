@@ -28,6 +28,11 @@ html {
     font-size: 2.5em;
   }
 }
+@media (min-width: 729px) and (max-width: 1024px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+    font-size: 3em;
+  }
+}
 
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
   font-family: "Roboto", sans-serif;
@@ -45,6 +50,11 @@ html {
     font-size: 1.5em;
   }
 }
+@media (min-width: 729px) and (max-width: 1024px) {
+  #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+    font-size: 2em;
+  }
+}
 
 /* Fin Extends */
 /* Operaciones */
@@ -58,6 +68,11 @@ html {
   }
 }
 @media screen and (min-width: 480px) and (max-width: 728px) {
+  .boton-desplazamiento {
+    display: none;
+  }
+}
+@media screen and (min-width: 729px) and (max-width: 1024px) {
   .boton-desplazamiento {
     display: none;
   }
@@ -168,6 +183,11 @@ html {
     font-size: 2.5em;
   }
 }
+@media (min-width: 729px) and (max-width: 1024px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+    font-size: 3em;
+  }
+}
 
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
   font-family: "Roboto", sans-serif;
@@ -183,6 +203,11 @@ html {
 @media (min-width: 481px) and (max-width: 728px) {
   #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
     font-size: 1.5em;
+  }
+}
+@media (min-width: 729px) and (max-width: 1024px) {
+  #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+    font-size: 2em;
   }
 }
 
@@ -230,6 +255,11 @@ html {
     font-size: 2.5em;
   }
 }
+@media (min-width: 729px) and (max-width: 1024px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+    font-size: 3em;
+  }
+}
 
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
   font-family: "Roboto", sans-serif;
@@ -245,6 +275,11 @@ html {
 @media (min-width: 481px) and (max-width: 728px) {
   #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
     font-size: 1.5em;
+  }
+}
+@media (min-width: 729px) and (max-width: 1024px) {
+  #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+    font-size: 2em;
   }
 }
 
@@ -306,6 +341,11 @@ html {
     font-size: 2.5em;
   }
 }
+@media (min-width: 729px) and (max-width: 1024px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #sobre-mi .sobre-mi-container h2, #skills .skills-container h2 {
+    font-size: 3em;
+  }
+}
 
 #proyectos .proyectos-container p, #sobre-mi .sobre-mi-container p, #skills .skills-container p {
   font-family: "Roboto", sans-serif;
@@ -321,6 +361,11 @@ html {
 @media (min-width: 481px) and (max-width: 728px) {
   #proyectos .proyectos-container p, #sobre-mi .sobre-mi-container p, #skills .skills-container p {
     font-size: 1.5em;
+  }
+}
+@media (min-width: 729px) and (max-width: 1024px) {
+  #proyectos .proyectos-container p, #sobre-mi .sobre-mi-container p, #skills .skills-container p {
+    font-size: 2em;
   }
 }
 
