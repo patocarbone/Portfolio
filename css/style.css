@@ -296,12 +296,14 @@ html {
   height: 100vh;
 }
 #skills .skills-container .img-css,
-#skills .skills-container .img-html {
+#skills .skills-container .img-html,
+#skills .skills-container .img-github {
   width: 10%;
   transition: all 1s;
 }
 #skills .skills-container .img-css:hover,
-#skills .skills-container .img-html:hover {
+#skills .skills-container .img-html:hover,
+#skills .skills-container .img-github:hover {
   transform: scale(2);
   -webkit-transform: scale(2);
   -o-transform: scale(2);
