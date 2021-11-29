@@ -18,12 +18,32 @@ html {
   color: white;
   letter-spacing: 10px;
 }
+@media (max-width: 480px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 481px) and (max-width: 728px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+    font-size: 2.5em;
+  }
+}
 
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
   font-family: "Roboto", sans-serif;
   font-size: 2em;
   color: white;
   background-color: #080808;
+}
+@media (max-width: 480px) {
+  #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+    font-size: 1em;
+  }
+}
+@media (min-width: 481px) and (max-width: 728px) {
+  #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+    font-size: 1.5em;
+  }
 }
 
 /* Fin Extends */
@@ -80,6 +100,16 @@ html {
   color: black;
   background-color: #FFFFFF;
 }
+@media (max-width: 480px) {
+  #inicio .inicio-container .encabezado-item {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 481px) and (max-width: 728px) {
+  #inicio .inicio-container .encabezado-item {
+    font-size: 2em;
+  }
+}
 #inicio .inicio-container button {
   font-family: "Roboto", sans-serif;
   background-color: white;
@@ -117,12 +147,32 @@ html {
   color: white;
   letter-spacing: 10px;
 }
+@media (max-width: 480px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 481px) and (max-width: 728px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+    font-size: 2.5em;
+  }
+}
 
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
   font-family: "Roboto", sans-serif;
   font-size: 2em;
   color: white;
   background-color: #080808;
+}
+@media (max-width: 480px) {
+  #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+    font-size: 1em;
+  }
+}
+@media (min-width: 481px) and (max-width: 728px) {
+  #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+    font-size: 1.5em;
+  }
 }
 
 /* Fin Extends */
@@ -159,12 +209,32 @@ html {
   color: white;
   letter-spacing: 10px;
 }
+@media (max-width: 480px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 481px) and (max-width: 728px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #skills .skills-container h2, #sobre-mi .sobre-mi-container h2 {
+    font-size: 2.5em;
+  }
+}
 
 #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
   font-family: "Roboto", sans-serif;
   font-size: 2em;
   color: white;
   background-color: #080808;
+}
+@media (max-width: 480px) {
+  #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+    font-size: 1em;
+  }
+}
+@media (min-width: 481px) and (max-width: 728px) {
+  #proyectos .proyectos-container p, #skills .skills-container p, #sobre-mi .sobre-mi-container p {
+    font-size: 1.5em;
+  }
 }
 
 /* Fin Extends */
@@ -215,12 +285,32 @@ html {
   color: white;
   letter-spacing: 10px;
 }
+@media (max-width: 480px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #sobre-mi .sobre-mi-container h2, #skills .skills-container h2 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 481px) and (max-width: 728px) {
+  #contacto .contacto-container h2, #proyectos .proyectos-container h2, #sobre-mi .sobre-mi-container h2, #skills .skills-container h2 {
+    font-size: 2.5em;
+  }
+}
 
 #proyectos .proyectos-container p, #sobre-mi .sobre-mi-container p, #skills .skills-container p {
   font-family: "Roboto", sans-serif;
   font-size: 2em;
   color: white;
   background-color: #080808;
+}
+@media (max-width: 480px) {
+  #proyectos .proyectos-container p, #sobre-mi .sobre-mi-container p, #skills .skills-container p {
+    font-size: 1em;
+  }
+}
+@media (min-width: 481px) and (max-width: 728px) {
+  #proyectos .proyectos-container p, #sobre-mi .sobre-mi-container p, #skills .skills-container p {
+    font-size: 1.5em;
+  }
 }
 
 /* Fin Extends */

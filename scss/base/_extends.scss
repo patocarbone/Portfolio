@@ -1,17 +1,32 @@
 /* Extends */
 
 %encabezados {
-    font-family: 'Comforter', cursive;
-    font-size: 4em;
-    color: white;
-    letter-spacing: 10px;
+  font-family: "Comforter", cursive;
+  font-size: 4em;
+  color: white;
+  letter-spacing: 10px;
+
+  @media (max-width: 480px) {
+    font-size: 1.5em;
+  }
+  @media (min-width: 481px) and (max-width: 728px) {
+      font-size: 2.5em;
+  }
+
 }
 
 %parrafos {
-    font-family: "Roboto", sans-serif;
-    font-size: 2em;
-    color: white;
-    background-color: nth($bg-color, 7)
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: white;
+  background-color: nth($bg-color, 7); 
+
+  @media (max-width: 480px) {
+    font-size: 1em;
+  }
+  @media (min-width: 481px) and (max-width: 728px) {
+    font-size: 1.5em;
+}
 }
 
 /* Fin Extends */

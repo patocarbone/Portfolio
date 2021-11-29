@@ -16,6 +16,13 @@
       font-size: 3em;
       color: black;
       background-color: nth($bg-color, 1);
+
+      @media (max-width: 480px) {
+        font-size: 1.5em;
+      }
+      @media (min-width: 481px) and (max-width: 728px) {
+        font-size: 2em;
+      }
     }
     button {
       font-family: "Roboto", sans-serif;
