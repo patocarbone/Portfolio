@@ -251,7 +251,6 @@ html {
 }
 @media screen and (max-width: 480px) {
   #sobre-mi .img-sobre-mi2:hover {
-    width: 25%;
     transform: none;
   }
 }
@@ -425,8 +424,8 @@ html {
 }
 
 /* Animacion */
-.animate__animated.animate__slideInUp {
-  --animate-duration: 2s;
+.animate__animated.animate__slideInRight {
+  --animate-duration: 2.5s;
 }
 
 /* Fin Skills */

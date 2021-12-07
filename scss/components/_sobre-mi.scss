@@ -34,7 +34,6 @@
     &:hover {
       @include transformaciones(translate(-400px, -120px) rotate(-35deg));
       @media screen and (max-width: 480px) {
-        width: 25%;
         transform: none;
       }
       @media screen and (min-width: 481px) and (max-width: 1199px) {
