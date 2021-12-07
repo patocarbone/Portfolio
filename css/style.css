@@ -235,6 +235,12 @@ html {
 @media screen and (max-width: 480px) {
   #sobre-mi .img-sobre-mi2 {
     width: 25%;
+    transition: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+  #sobre-mi .img-sobre-mi2 {
+    transition: none;
   }
 }
 #sobre-mi .img-sobre-mi2:hover {
@@ -242,6 +248,17 @@ html {
   -webkit-transform: translate(-400px, -120px) rotate(-35deg);
   -o-transform: translate(-400px, -120px) rotate(-35deg);
   -moz-transform: translate(-400px, -120px) rotate(-35deg);
+}
+@media screen and (max-width: 480px) {
+  #sobre-mi .img-sobre-mi2:hover {
+    width: 25%;
+    transform: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+  #sobre-mi .img-sobre-mi2:hover {
+    transform: none;
+  }
 }
 #sobre-mi .balde-con-agua {
   width: 45%;
@@ -345,6 +362,27 @@ html {
   -o-transform: scale(2);
   -moz-transform: scale(2);
 }
+@media screen and (max-width: 480px) {
+  #skills .skills-container .img-css:hover,
+#skills .skills-container .img-html:hover,
+#skills .skills-container .img-github:hover {
+    transform: scale(1.5);
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 728px) {
+  #skills .skills-container .img-css:hover,
+#skills .skills-container .img-html:hover,
+#skills .skills-container .img-github:hover {
+    transform: scale(1.5);
+  }
+}
+@media screen and (min-width: 729px) and (max-width: 1024px) {
+  #skills .skills-container .img-css:hover,
+#skills .skills-container .img-html:hover,
+#skills .skills-container .img-github:hover {
+    transform: scale(1.5);
+  }
+}
 #skills .skills-container .img-js {
   width: 8%;
   transition: all 1s;
@@ -369,6 +407,21 @@ html {
   -webkit-transform: scale(2);
   -o-transform: scale(2);
   -moz-transform: scale(2);
+}
+@media screen and (max-width: 480px) {
+  #skills .skills-container .img-js:hover {
+    transform: scale(1.5);
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 728px) {
+  #skills .skills-container .img-js:hover {
+    transform: scale(1.5);
+  }
+}
+@media screen and (min-width: 729px) and (max-width: 1024px) {
+  #skills .skills-container .img-js:hover {
+    transform: scale(1.5);
+  }
 }
 
 /* Animacion */

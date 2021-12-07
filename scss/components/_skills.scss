@@ -36,6 +36,16 @@
 
       &:hover {
         @include transformaciones(scale(2));
+
+        @media screen and (max-width: 480px) {
+          transform: scale(1.5);
+        }
+        @media screen and (min-width: 480px) and (max-width: 728px) {
+          transform: scale(1.5);
+        }
+        @media screen and (min-width: 729px) and (max-width: 1024px) {
+          transform: scale(1.5);
+        }
       }
     }
 
@@ -55,6 +65,16 @@
 
       &:hover {
         @include transformaciones(scale(2));
+
+        @media screen and (max-width: 480px) {
+          transform: scale(1.5);
+        }
+        @media screen and (min-width: 480px) and (max-width: 728px) {
+          transform: scale(1.5);
+        }
+        @media screen and (min-width: 729px) and (max-width: 1024px) {
+          transform: scale(1.5);
+        }
       }
     }
   }
