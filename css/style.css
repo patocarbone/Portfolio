@@ -234,7 +234,7 @@ html {
 }
 @media screen and (max-width: 480px) {
   #sobre-mi .img-sobre-mi2 {
-    width: 35%;
+    width: 25%;
   }
 }
 #sobre-mi .img-sobre-mi2:hover {
@@ -245,6 +245,11 @@ html {
 }
 #sobre-mi .balde-con-agua {
   width: 45%;
+}
+@media screen and (max-width: 480px) {
+  #sobre-mi .balde-con-agua {
+    width: 35%;
+  }
 }
 
 /* Fin sobre mi */
@@ -322,14 +327,14 @@ html {
   #skills .skills-container .img-css,
 #skills .skills-container .img-html,
 #skills .skills-container .img-github {
-    width: 25%;
+    width: 15%;
   }
 }
 @media screen and (min-width: 729px) and (max-width: 1024px) {
   #skills .skills-container .img-css,
 #skills .skills-container .img-html,
 #skills .skills-container .img-github {
-    width: 25%;
+    width: 17%;
   }
 }
 #skills .skills-container .img-css:hover,
@@ -351,12 +356,12 @@ html {
 }
 @media screen and (min-width: 480px) and (max-width: 728px) {
   #skills .skills-container .img-js {
-    width: 18%;
+    width: 11%;
   }
 }
 @media screen and (min-width: 729px) and (max-width: 1024px) {
   #skills .skills-container .img-js {
-    width: 18%;
+    width: 12%;
   }
 }
 #skills .skills-container .img-js:hover {

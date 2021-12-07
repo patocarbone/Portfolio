@@ -24,7 +24,7 @@
     @include transiciones(all 1.5s);
     width: 35%;
     @media screen and (max-width: 480px) {
-      width: 35%;
+      width: 25%;
     }
 
     &:hover {
@@ -33,6 +33,9 @@
   }
   .balde-con-agua {
     width: 45%;
+    @media screen and (max-width: 480px) {
+      width: 35%;
+    }
   }
 }
 /* Fin sobre mi */
