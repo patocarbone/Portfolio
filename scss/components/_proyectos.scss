@@ -18,12 +18,41 @@
       @extend %parrafos;
     }
 
+    button {
+      &:hover a {
+        color: black;
+      }
+      a {
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 2em;
+        color: white;
+
+        @media screen and (max-width: 480px) {
+         font-size: 1em;
+         }
+         @media screen and (min-width: 481px) and (max-width: 728px) {
+          font-size: 1.5em;
+        }
+        @media screen and (min-width: 729px) and (max-width: 1024px) {
+          font-size: 1.5em;
+        }
+      }
+    }
+
     .car-container {
       width: 50%;
+
+      @media screen and (max-width: 480px) {
+       width: 55%;
+      }
+      @media screen and (min-width: 481px) and (max-width: 728px) {
+        width: 40%;
+      }
+      @media screen and (min-width: 729px) and (max-width: 1024px) {
+        width: 40%;
+      }
     }
-  }
-  .img-flecha {
-    width: 20vh;
   }
 }
 
