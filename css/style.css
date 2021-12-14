@@ -116,7 +116,7 @@ html {
   background-color: #191919;
 }
 #inicio .inicio-container {
-  height: 100vh;
+  height: 90vh;
 }
 #inicio .inicio-container .encabezado-item {
   margin-right: 25%;
@@ -226,10 +226,10 @@ html {
   background-color: #191919;
 }
 #sobre-mi .sobre-mi-container {
-  height: 100vh;
+  height: 90vh;
 }
 #sobre-mi .sobre-mi-container .img-container div .img-sobre-mi2 {
-  width: 60%;
+  width: 50%;
   transition: all 2s;
 }
 @media screen and (max-width: 480px) {
@@ -260,7 +260,7 @@ html {
   }
 }
 #sobre-mi .sobre-mi-container .img-container .balde-con-agua {
-  width: 30%;
+  width: 25%;
 }
 @media screen and (max-width: 480px) {
   #sobre-mi .sobre-mi-container .img-container .balde-con-agua {
@@ -324,7 +324,7 @@ html {
   background-color: #191919;
 }
 #skills .skills-container {
-  height: 100vh;
+  height: 90vh;
 }
 #skills .skills-container .img-css,
 #skills .skills-container .img-html,
@@ -482,7 +482,7 @@ html {
   background-color: #191919;
 }
 #proyectos .proyectos-container {
-  height: 100vh;
+  height: 90vh;
 }
 #proyectos .proyectos-container button:hover a {
   color: black;
@@ -535,7 +535,7 @@ html {
   background-color: #191919;
 }
 #contacto .contacto-container {
-  height: 70vh;
+  height: 60vh;
 }
 #contacto .contacto-container a {
   text-decoration: none;

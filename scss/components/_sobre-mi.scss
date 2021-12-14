@@ -22,7 +22,7 @@
     .img-container {
       div {
         .img-sobre-mi2 {
-          width: 60%;
+          width: 50%;
           @include transiciones(all 2s);
 
           @media screen and (max-width: 480px) {
@@ -47,7 +47,7 @@
       }
 
       .balde-con-agua {
-        width: 30%;
+        width: 25%;
         @media screen and (max-width: 480px) {
           width: 30%;
         }
