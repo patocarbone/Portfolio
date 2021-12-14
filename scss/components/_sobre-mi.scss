@@ -19,14 +19,17 @@
       @extend %parrafos;
     }
   }
-  div {
+  .img-container {
+
     .img-sobre-mi2 {
       @include transiciones(all 2s);
-      width: 60%;
+      width: 90%;
+
       @media screen and (max-width: 480px) {
-        width: 20%;
+        width: 90%;
         transition: none;
       }
+
       @media screen and (min-width: 481px) and (max-width: 1199px) {
         transition: none;
       }
@@ -39,14 +42,17 @@
         @media screen and (min-width: 481px) and (max-width: 1199px) {
           transform: none;
         }
+
       }
     }
+
     .balde-con-agua {
       width: 30%;
       @media screen and (max-width: 480px) {
         width: 25%;
       }
     }
+
   }
 }
 /* Fin sobre mi */
