@@ -19,32 +19,33 @@
       @extend %parrafos;
     }
   }
-
-  .img-sobre-mi2 {
-    @include transiciones(all 1.5s);
-    width: 35%;
-    @media screen and (max-width: 480px) {
-      width: 20%;
-      transition: none;
-    }
-    @media screen and (min-width: 481px) and (max-width: 1199px) {
-      transition: none;
-    }
-
-    &:hover {
-      @include transformaciones(translate(-400px, -120px) rotate(-35deg));
+  div {
+    .img-sobre-mi2 {
+      @include transiciones(all 2s);
+      width: 60%;
       @media screen and (max-width: 480px) {
-        transform: none;
+        width: 20%;
+        transition: none;
       }
       @media screen and (min-width: 481px) and (max-width: 1199px) {
-        transform: none;
+        transition: none;
+      }
+
+      &:hover {
+        @include transformaciones(translate(-550px, -90px) rotate(-35deg));
+        @media screen and (max-width: 480px) {
+          transform: none;
+        }
+        @media screen and (min-width: 481px) and (max-width: 1199px) {
+          transform: none;
+        }
       }
     }
-  }
-  .balde-con-agua {
-    width: 45%;
-    @media screen and (max-width: 480px) {
+    .balde-con-agua {
       width: 30%;
+      @media screen and (max-width: 480px) {
+        width: 30%;
+      }
     }
   }
 }

@@ -228,42 +228,42 @@ html {
 #sobre-mi .sobre-mi-container {
   height: 100vh;
 }
-#sobre-mi .img-sobre-mi2 {
-  transition: all 1.5s;
-  width: 35%;
+#sobre-mi div .img-sobre-mi2 {
+  transition: all 2s;
+  width: 60%;
 }
 @media screen and (max-width: 480px) {
-  #sobre-mi .img-sobre-mi2 {
+  #sobre-mi div .img-sobre-mi2 {
     width: 20%;
     transition: none;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 1199px) {
-  #sobre-mi .img-sobre-mi2 {
+  #sobre-mi div .img-sobre-mi2 {
     transition: none;
   }
 }
-#sobre-mi .img-sobre-mi2:hover {
-  transform: translate(-400px, -120px) rotate(-35deg);
-  -webkit-transform: translate(-400px, -120px) rotate(-35deg);
-  -o-transform: translate(-400px, -120px) rotate(-35deg);
-  -moz-transform: translate(-400px, -120px) rotate(-35deg);
+#sobre-mi div .img-sobre-mi2:hover {
+  transform: translate(-550px, -90px) rotate(-35deg);
+  -webkit-transform: translate(-550px, -90px) rotate(-35deg);
+  -o-transform: translate(-550px, -90px) rotate(-35deg);
+  -moz-transform: translate(-550px, -90px) rotate(-35deg);
 }
 @media screen and (max-width: 480px) {
-  #sobre-mi .img-sobre-mi2:hover {
+  #sobre-mi div .img-sobre-mi2:hover {
     transform: none;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 1199px) {
-  #sobre-mi .img-sobre-mi2:hover {
+  #sobre-mi div .img-sobre-mi2:hover {
     transform: none;
   }
 }
-#sobre-mi .balde-con-agua {
-  width: 45%;
+#sobre-mi div .balde-con-agua {
+  width: 30%;
 }
 @media screen and (max-width: 480px) {
-  #sobre-mi .balde-con-agua {
+  #sobre-mi div .balde-con-agua {
     width: 30%;
   }
 }
