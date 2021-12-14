@@ -18,41 +18,41 @@
     p {
       @extend %parrafos;
     }
-  }
-  .img-container {
 
-    .img-sobre-mi2 {
-      @include transiciones(all 2s);
-      width: 90%;
+    .img-container {
+      div {
+        .img-sobre-mi2 {
+          width: 60%;
+          @include transiciones(all 2s);
 
-      @media screen and (max-width: 480px) {
-        width: 90%;
-        transition: none;
+          @media screen and (max-width: 480px) {
+            width: 50%;
+            transition: none;
+          }
+
+          @media screen and (min-width: 481px) and (max-width: 1199px) {
+            transition: none;
+          }
+
+          &:hover {
+            @include transformaciones(translate(-550px, -90px) rotate(-35deg));
+            @media screen and (max-width: 480px) {
+              transform: none;
+            }
+            @media screen and (min-width: 481px) and (max-width: 1199px) {
+              transform: none;
+            }
+          }
+        }
       }
 
-      @media screen and (min-width: 481px) and (max-width: 1199px) {
-        transition: none;
-      }
-
-      &:hover {
-        @include transformaciones(translate(-550px, -90px) rotate(-35deg));
+      .balde-con-agua {
+        width: 30%;
         @media screen and (max-width: 480px) {
-          transform: none;
+          width: 30%;
         }
-        @media screen and (min-width: 481px) and (max-width: 1199px) {
-          transform: none;
-        }
-
       }
     }
-
-    .balde-con-agua {
-      width: 30%;
-      @media screen and (max-width: 480px) {
-        width: 25%;
-      }
-    }
-
   }
 }
 /* Fin sobre mi */
